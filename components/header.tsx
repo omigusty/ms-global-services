@@ -22,6 +22,7 @@ export function Header() {
     { name: "Company Formation", href: "#company-formation" },
     { name: "Audit & Tax", href: "#audit-tax" },
     { name: "Capital Markets", href: "#capital-markets" },
+    { name: "Contact", href: "#contact" },
   ];
 
   // Smooth scroll function
@@ -65,7 +66,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo - Left */}
+          {/* Logo - Left
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
@@ -74,6 +75,18 @@ export function Header() {
                 width={180}
                 height={50}
                 className="h-10 w-auto"
+              />
+            </Link>
+          </div> */}
+          {/* Logo - Left */}
+          <div className="flex-shrink-0 px-4 md:px-0">
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="MS Global Services"
+                width={180}
+                height={50}
+                className="h-10 w-auto scale-[1.2] md:scale-100 transition-transform duration-300"
               />
             </Link>
           </div>
