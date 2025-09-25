@@ -20,7 +20,7 @@ export function Header() {
   const navItems = [
     { name: "Services", href: "#services" },
     { name: "Company Formation", href: "#company-formation" },
-    { name: "Audit & Tax", href: "#audit-tax" },
+    { name: "Invesment Banking", href: "#invesment-banking" },
     { name: "Capital Markets", href: "#capital-markets" },
     { name: "Contact", href: "#contact" },
   ];

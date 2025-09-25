@@ -4,7 +4,7 @@ import { Header } from "@/components/header";
 import { HeroSection } from "@/components/hero-section";
 import { ServicesOverview } from "@/components/services-overview";
 import { CompanyFormation } from "@/components/company-formation";
-import { AuditTax } from "@/components/audit-tax";
+import { InvestmentBanking } from "@/components/invesment-banking";
 import { CapitalMarkets } from "@/components/capital-markets";
 import { ContactSection } from "@/components/contact-section";
 import { Footer } from "@/components/footer";
@@ -66,7 +66,7 @@ export default function Landing() {
               ease: [0.25, 0.46, 0.45, 0.94],
             }}
           >
-            <AuditTax />
+            <InvestmentBanking />
           </motion.section>
 
           {/* <motion.section

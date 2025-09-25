@@ -159,7 +159,7 @@ export function CompanyFormation() {
           <div className="space-y-4 md:space-y-8 lg:space-y-6 order-2 lg:order-2 md:px-6 lg:px-0">
             <div className="space-y-3 md:space-y-6 lg:space-y-4">
               <p className="text-xs md:text-sm font-medium text-gray-600 tracking-wider uppercase">
-                Company Formation & Strategic Business Setup
+                Company Formation & Strategic Business Setup Consultancy
               </p>
 
               <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight md:leading-snug lg:leading-tight text-balance">

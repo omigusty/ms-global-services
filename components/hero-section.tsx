@@ -6,13 +6,17 @@ export function HeroSection() {
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
       {/* Background Image */}
-      <div className="absolute inset-0">
-        <Image
-          src="/image.png"
-          alt="Business background"
-          fill
-          className="object-cover"
-        />
+      <div className="absolute inset-0 overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/corporate.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         {/* Overlay supaya teks tetap jelas */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
       </div>

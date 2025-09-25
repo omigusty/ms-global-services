@@ -28,11 +28,11 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">
-                      Headquarters
+                      Address
                     </h4>
                     <p className="text-gray-600">Dubai, UAE</p>
                     <p className="text-sm text-gray-500">
-                      Global footprint with local expertise
+                      Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba
                     </p>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                    <p className="text-gray-600">+971 XX XXX XXXX</p>
+                    <p className="text-gray-600">+97152 538 3200</p>
                     <p className="text-sm text-gray-500">
                       Available during business hours
                     </p>
@@ -56,7 +56,9 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">info@msglobalservices.com</p>
+                    <p className="text-gray-600">
+                      infoweb@msglobal-services.com
+                    </p>
                     <p className="text-sm text-gray-500">
                       We'll respond within 24 hours
                     </p>
@@ -72,7 +74,7 @@ export function ContactSection() {
                       Business Hours
                     </h4>
                     <p className="text-gray-600">
-                      Sunday - Thursday: 9:00 AM - 6:00 PM{" "}
+                      Monday- Friday : 9:00 AM - 5:00 PM{" "}
                       <span className="text-sm text-gray-500">
                         UAE Time (GMT+4)
                       </span>
