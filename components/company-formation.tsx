@@ -133,7 +133,7 @@ export function CompanyFormation() {
             <div className="relative w-[280px] h-[350px] sm:w-[350px] sm:h-[420px] md:w-[400px] md:h-[480px] lg:w-[500px] lg:h-[600px] p-2 md:p-4">
               <div className="relative w-full h-full overflow-hidden rounded-t-[150px] sm:rounded-t-[180px] md:rounded-t-[200px] lg:rounded-t-[225px] rounded-b-[10px] z-10">
                 <Image
-                  src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&h=500&fit=crop"
+                  src="https://images.unsplash.com/photo-1623669655876-17bac70dd7ae?q=80&w=1706&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Person relaxing in water with mountain backdrop"
                   fill
                   className="object-cover"

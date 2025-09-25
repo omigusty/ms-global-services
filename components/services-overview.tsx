@@ -1,14 +1,6 @@
 "use client";
-
-import {
-  Building2,
-  Calculator,
-  TrendingUp,
-  BarChart3,
-  ArrowRight,
-} from "lucide-react";
+import { Building2, Calculator, TrendingUp, BarChart3 } from "lucide-react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export function ServicesOverview() {
@@ -25,7 +17,7 @@ export function ServicesOverview() {
         "Market Entry Strategy",
       ],
       image:
-        "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     audit: {
       icon: Calculator,
@@ -53,7 +45,7 @@ export function ServicesOverview() {
         "Risk Management",
       ],
       image:
-        "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     markets: {
       icon: BarChart3,
@@ -67,7 +59,7 @@ export function ServicesOverview() {
         "Merchant Banking",
       ],
       image:
-        "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1526948531399-320e7e40f0ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   };
 
@@ -84,10 +76,10 @@ export function ServicesOverview() {
             services empower your business at every stage of growth.
           </p>
 
-          <Button className="mt-4 md:mt-6 bg-[#D7B459] hover:bg-[#C4A347] text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md text-sm sm:text-base">
+          {/* <Button className="mt-4 md:mt-6 bg-[#D7B459] hover:bg-[#C4A347] text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md text-sm sm:text-base">
             Explore More
             <ArrowRight className="ml-2 h-3 w-3 sm:h-4 sm:w-4" />
-          </Button>
+          </Button> */}
         </div>
 
         {/* Tabs */}
@@ -133,9 +125,9 @@ export function ServicesOverview() {
                     ))}
                   </ul>
 
-                  <Button className="bg-[#D7B459] hover:bg-[#C4A347] text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md text-sm sm:text-base w-full sm:w-auto">
+                  {/* <Button className="bg-[#D7B459] hover:bg-[#C4A347] text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md text-sm sm:text-base w-full sm:w-auto">
                     Let&apos;s Chat
-                  </Button>
+                  </Button> */}
                 </div>
 
                 <div className="flex-1 flex justify-center w-full lg:w-auto">

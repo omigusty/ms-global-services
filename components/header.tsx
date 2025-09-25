@@ -82,11 +82,11 @@ export function Header() {
           <div className="flex-shrink-0 px-4 md:px-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/logo.png"
+                src="/logo.svg"
                 alt="MS Global Services"
                 width={180}
                 height={50}
-                className="h-10 w-auto scale-[1.2] md:scale-100 transition-transform duration-300"
+                className="h-10 w-auto scale-[1.3] md:scale-[1.5] lg:scale-[1.3] transition-transform duration-300"
               />
             </Link>
           </div>
@@ -138,9 +138,9 @@ export function Header() {
                   <SheetTitle>Navigation Menu</SheetTitle>
                 </VisuallyHidden>
 
-                <div className="flex flex-col space-y-6 mt-8">
+                <div className="flex flex-col space-y-2">
                   {navItems.map((item) => (
-                    <Button
+                    <button
                       key={item.name}
                       onClick={() => scrollToSection(item.href)}
                       className={`text-left text-base font-medium transition-colors hover:text-[#D7B459] py-2 ${
@@ -150,10 +150,10 @@ export function Header() {
                       }`}
                     >
                       {item.name}
-                    </Button>
+                    </button>
                   ))}
 
-                  <div className="pt-6 border-t border-gray-200">
+                  <div className="pt-2">
                     <Button
                       onClick={() => scrollToSection("#contact")}
                       className="w-full bg-[#D7B459] hover:bg-[#C4A347] text-white px-6 py-3 rounded-lg font-medium transition-all duration-200"
